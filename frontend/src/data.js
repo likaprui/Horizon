@@ -1,0 +1,71 @@
+export const STOCKS = [
+  { symbol: "AAPL", name: "Apple Inc.", price: 189.84, change: 2.34, pct: 1.25, sector: "Technology" },
+  { symbol: "TSLA", name: "Tesla Inc.", price: 248.50, change: -5.20, pct: -2.05, sector: "Automotive" },
+  { symbol: "NVDA", name: "NVIDIA Corp.", price: 875.40, change: 22.10, pct: 2.59, sector: "Technology" },
+  { symbol: "MSFT", name: "Microsoft Corp.", price: 415.20, change: 3.80, pct: 0.92, sector: "Technology" },
+  { symbol: "AMZN", name: "Amazon.com", price: 185.70, change: -1.20, pct: -0.64, sector: "E-Commerce" },
+  { symbol: "GOOGL", name: "Alphabet Inc.", price: 165.40, change: 4.10, pct: 2.54, sector: "Technology" },
+  { symbol: "META", name: "Meta Platforms", price: 512.30, change: 8.90, pct: 1.77, sector: "Social Media" },
+  { symbol: "JPM", name: "JPMorgan Chase", price: 198.70, change: 1.50, pct: 0.76, sector: "Finance" },
+  { symbol: "BAC", name: "Bank of America", price: 37.80, change: 0.40, pct: 1.07, sector: "Finance" },
+  { symbol: "BTC", name: "Bitcoin", price: 67420, change: 1240, pct: 1.87, sector: "Crypto" },
+  { symbol: "ETH", name: "Ethereum", price: 3540, change: -85, pct: -2.34, sector: "Crypto" },
+  { symbol: "SOL", name: "Solana", price: 178.50, change: 12.30, pct: 7.39, sector: "Crypto" },
+];
+
+export const BOOKS = [
+  {
+    id: 1,
+    title: "The Intelligent Investor",
+    author: "Benjamin Graham",
+    pages: 640,
+    tag: "Classic",
+    accent: "#4a8fe8",
+    description: "The definitive book on value investing and the philosophy of long-term wealth building.",
+    chapters: [
+      "The Investor and Inflation",
+      "Portfolio Policy",
+      "Security Analysis for the Lay Investor",
+      "The Margin of Safety",
+    ],
+  },
+  {
+    id: 2,
+    title: "Market Wizards",
+    author: "Jack D. Schwager",
+    pages: 480,
+    tag: "Interviews",
+    accent: "#d4930a",
+    description: "Interviews with America's top traders revealing principles behind extraordinary returns.",
+    chapters: ["Michael Marcus", "Bruce Kovner", "Richard Dennis", "Paul Tudor Jones"],
+  },
+  {
+    id: 3,
+    title: "Reminiscences of a Stock Operator",
+    author: "Edwin Lefevre",
+    pages: 352,
+    tag: "Biography",
+    accent: "#3db560",
+    description: "The thinly veiled autobiography of Jesse Livermore, one of history's greatest speculators.",
+    chapters: ["The Boy Plunger", "Bucket Shops", "Reading the Tape", "The Big Move"],
+  },
+  {
+    id: 4,
+    title: "A Random Walk Down Wall Street",
+    author: "Burton Malkiel",
+    pages: 500,
+    tag: "Academic",
+    accent: "#9b6fe0",
+    description: "An examination of stock market history and its implications for modern investment strategy.",
+    chapters: ["Firm Foundations", "Castles in the Air", "Modern Portfolio Theory", "Index Funds"],
+  },
+];
+
+export const LEADERBOARD = [
+  { rank: 1, name: "alex_trader", return: 284.5, balance: 38450, trades: 142, best: "NVDA +312%" },
+  { rank: 2, name: "cryptoqueen", return: 231.2, balance: 33120, trades: 89, best: "SOL +280%" },
+  { rank: 3, name: "wallstwolf", return: 198.7, balance: 29870, trades: 215, best: "TSLA +195%" },
+  { rank: 4, name: "diamondhands", return: 167.3, balance: 26730, trades: 67, best: "BTC +201%" },
+  { rank: 5, name: "quantking", return: 143.8, balance: 24380, trades: 198, best: "META +178%" },
+  { rank: 6, name: "you", return: 34.2, balance: 13420, trades: 12, best: "AAPL +18%", isUser: true },
+];
